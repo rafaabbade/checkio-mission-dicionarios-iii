@@ -1,18 +1,20 @@
 <!-- Describe task in general -->
 
 <p>
-    {{ENUNCIADO}}
+    Você receberá uma lista de tuplas, onde cada tupla contém uma chave e um valor. Sua tarefa é converter essa lista em um dicionário e então utilizar métodos do dicionário para printar as chaves, os valores e os pares chave-valor (itens).
+
+
 </p>
 
 
 
 <!-- Explain input and output values -->
 <p>
-    <strong>Entrada </strong> {{ENTRADA}}
+    <strong>Entrada </strong> Uma lista de tuplas, cada tupla consistindo em uma chave (string) e um valor (pode ser qualquer tipo).
 </p>
 
 <p>
-    <strong>Saída: </strong> {{SAIDA}}
+    <strong>Saída: </strong> Três prints: um para as chaves, um para os valores, e um para os itens do dicionário.
 </p>
 
 
@@ -28,7 +30,9 @@ countConsecutiveSummers(99) == 6
 </pre>
 {% else %}
 <pre class="brush: python">
-    {{EXEMPLOS}}
+    explorar_dicionario([('nome', 'Alice'), ('idade', 25)]) >> (['nome', 'idade'], ['Alice', 25], [('nome', 'Alice'), ('idade', 25)])
+explorar_dicionario([('cidade', 'São Paulo'), ('população', 12000000)]) >> (['cidade', 'população'], ['São Paulo', 12000000], [('cidade', 'São Paulo'), ('população', 12000000)])
+explorar_dicionario([('cor', 'vermelho'), ('valor', 255)]) >> (['cor', 'valor'], ['vermelho', 255], [('cor', 'vermelho'), ('valor', 255)])
 </pre>
 {% endif %}
 </div>
