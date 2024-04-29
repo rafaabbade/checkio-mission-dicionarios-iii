@@ -14,24 +14,24 @@
  <div class="question-answer">
   <div class="question">
    <p>
-    3
+    Por que, ao tentar obter as chaves de um dicionário em Python, o resultado aparece como dict_keys e não apenas a lista das chaves?
    </p>
   </div>
   <div class="answer">
    <p>
-    4
+    Em Python, quando você usa o método .keys() em um dicionário, ele retorna um objeto do tipo dict_keys em vez de uma lista comum. Esse objeto é uma visualização dinâmica das chaves do dicionário, o que significa que ele reflete qualquer mudança nas chaves do dicionário após sua criação. Essa característica é útil para eficiência e economia de memória, mas pode não ser o que você deseja se precisar de uma lista real das chaves.
    </p>
   </div>
  </div>
  <div class="question-answer">
   <div class="question">
    <p>
-    5
+    Como corrigir para obter apenas as chaves?
    </p>
   </div>
   <div class="answer">
    <p>
-    6
+    Para converter um objeto dict_keys em uma lista simples, você deve usar explicitamente a função list(). Aqui está como você pode fazer isso: chaves_lista = list(dicionario.keys())
    </p>
   </div>
  </div>
