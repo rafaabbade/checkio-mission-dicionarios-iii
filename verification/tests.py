@@ -12,7 +12,7 @@ TESTS = {
     "Basics": [
 
     {
-        "input": [[('cor', 'vermelho'), ('valor', 255)]],
+        "input": [('cor', 'vermelho'), ('valor', 255)],
         "answer": (['cor', 'valor'], ['vermelho', 255], [('cor', 'vermelho'), ('valor', 255)])
     }
     ]
