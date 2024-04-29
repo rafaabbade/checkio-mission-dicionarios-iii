@@ -12,8 +12,8 @@ TESTS = {
     "Basics": [
 
     {
-        "input": [[("nome", "Alice"), ("idade", 25)]],
-        "answer": (["nome", "idade"], ["Alice", 25]),
+        "input": [[("nome", "Alice"), ("idade", "25")]],
+        "answer": (["nome", "idade"], ["Alice", "25"]),
     }
     ]
 }
