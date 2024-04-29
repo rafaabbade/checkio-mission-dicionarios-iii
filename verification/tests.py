@@ -11,7 +11,7 @@ Each test is a dict with
 TESTS = {
     "Basics": [
          {
-        "input": [[('cidade', 'São Paulo'), ('população', 12_000_000)]],
+        "input": [[('cidade', 'São Paulo'), ('população', 12000000)]],
         "answer": (['cidade', 'população'], ['São Paulo', 12000000], [('cidade', 'São Paulo'), ('população', 12000000)])
     },
     {
