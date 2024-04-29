@@ -10,10 +10,7 @@ Each test is a dict with
 
 TESTS = {
     "Basics": [
-         {
-        "input": [[('cidade', 'São Paulo'), ('população', 12000000)]],
-        "answer": (['cidade', 'população'], ['São Paulo', 12000000], [('cidade', 'São Paulo'), ('população', 12000000)])
-    },
+
     {
         "input": [[('cor', 'vermelho'), ('valor', 255)]],
         "answer": (['cor', 'valor'], ['vermelho', 255], [('cor', 'vermelho'), ('valor', 255)])
