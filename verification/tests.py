@@ -12,8 +12,8 @@ TESTS = {
     "Basics": [
 
     {
-        "input": [[('cor', 'vermelho'), ('valor', 255)]],
-        "answer": (['cor', 'valor'], ['vermelho', 255], [('cor', 'vermelho'), ('valor', 255)])
+        "input": [[("nome", "Alice"), ("idade", 25)]],
+        "answer": (["nome", "idade"], ["Alice", 25], [("nome", "Alice"), ("idade", 25)]),
     }
     ]
 }
