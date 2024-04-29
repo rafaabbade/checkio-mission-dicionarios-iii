@@ -13,7 +13,7 @@ TESTS = {
 
     {
         "input": [[("nome", "Alice"), ("idade", "25")]],
-        "answer": (["idade", "25"]),
+        "answer": (["Alice", "25"]),
     }
     ]
 }
