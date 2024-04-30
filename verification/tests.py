@@ -14,6 +14,15 @@ TESTS = {
     {
         "input": [[("nome", "Alice"), ("idade", "25")]],
         "answer": (["Alice", "25"]),
+        
+    },
+    {
+        "input": [[('cidade', 'São Paulo'), ('população', 12000000)]],
+        "answer": (['São Paulo', 12000000]),
+    },
+    {
+        "input": [[('cor', 'vermelho'), ('valor', 255)]],
+        "answer": (['vermelho', 255])
     }
     ]
 }
