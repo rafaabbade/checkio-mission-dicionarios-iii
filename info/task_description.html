@@ -1,7 +1,7 @@
 <!-- Describe task in general -->
 
 <p>
-    Você receberá uma lista de tuplas, onde cada tupla contém uma chave e um valor. Sua tarefa é converter essa lista em um dicionário e então utilizar métodos do dicionário para printar as chaves, os valores e os pares chave-valor (itens).
+    Você receberá uma lista de tuplas, onde cada tupla contém uma chave e um valor. Sua tarefa é converter essa lista em um dicionário e então utilizar métodos do dicionário para retornar as chaves.
 
 
 </p>
@@ -14,7 +14,7 @@
 </p>
 
 <p>
-    <strong>Saída: </strong> Três valores: chaves, valores, e itens do dicionário.
+    <strong>Saída: </strong> Uma lista com as chaves do dicionários.
 </p>
 
 
@@ -30,9 +30,9 @@ countConsecutiveSummers(99) == 6
 </pre>
 {% else %}
 <pre class="brush: python">
-    explorar_dicionario([('nome', 'Alice'), ('idade', 25)]) >> (['nome', 'idade'], ['Alice', 25], [('nome', 'Alice'), ('idade', 25)])
-explorar_dicionario([('cidade', 'São Paulo'), ('população', 12000000)]) >> (['cidade', 'população'], ['São Paulo', 12000000], [('cidade', 'São Paulo'), ('população', 12000000)])
-explorar_dicionario([('cor', 'vermelho'), ('valor', 255)]) >> (['cor', 'valor'], ['vermelho', 255], [('cor', 'vermelho'), ('valor', 255)])
+    explorar_dicionario([('nome', 'Alice'), ('idade', 25)]) >> ['Alice', 25]
+explorar_dicionario([('cidade', 'São Paulo'), ('população', 12000000)]) >> ['São Paulo', 12000000]
+explorar_dicionario([('cor', 'vermelho'), ('valor', 255)]) >> ['vermelho', 255]
 </pre>
 {% endif %}
 </div>
