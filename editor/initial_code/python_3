@@ -11,10 +11,10 @@ print(explorar_dicionario([('nome', 'Alice'), ('idade', 25)]))
 
 
 # Asserts para verificar as soluções
-assert explorar_dicionario([('nome', 'Alice'), ('idade', 25)]) == (['nome', 'idade'], ['Alice', 25], [('nome', 'Alice'), ('idade', 25)])
+assert explorar_dicionario([('nome', 'Alice'), ('idade', 25)]) == ['Alice', 25]
 
-assert explorar_dicionario([('cidade', 'São Paulo'), ('população', 12000000)]) == (['cidade', 'população'], ['São Paulo', 12000000], [('cidade', 'São Paulo'), ('população', 12000000)])
+assert explorar_dicionario([('cidade', 'São Paulo'), ('população', 12000000)]) == ['São Paulo', 12000000]
 
-assert explorar_dicionario([('cor', 'vermelho'), ('valor', 255)]) == (['cor', 'valor'], ['vermelho', 255], [('cor', 'vermelho'), ('valor', 255)])
+assert explorar_dicionario([('cor', 'vermelho'), ('valor', 255)]) == ['vermelho', 255]
 
 print("Seu código passou pelos testes, clique em Check para avançar!")
